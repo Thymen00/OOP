@@ -19,7 +19,6 @@ public class AccountList {
         return false;
     }
 
-    //getaccount
     public Account getAccount(int idx){
         if (idx < accounts.length){
             return accounts[idx];

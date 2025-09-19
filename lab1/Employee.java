@@ -17,20 +17,20 @@ public class Employee {
     }
 
     public String getfirst_name(){
-        return this.first_name; // leesbaar
+        return this.first_name; 
     }
     public String getlast_name(){
-        return this.last_name; // leesbaar
+        return this.last_name;
     }
     public double getmonthlySalary(){
-        return this.monthlySalary; // leesbaar
+        return this.monthlySalary; 
     }
 
     public void setfirst_name(String first_name){
-        this.first_name=first_name; //updatebaar
+        this.first_name=first_name; 
     }
     public void setlast_name(String last_name){
-        this.last_name=last_name; //updatebaar
+        this.last_name=last_name; 
     }
     public void setMonthlySalary(double salary) { // alleen uitgevoerd als het salaris hoger is dan 0 zodat het salaris niet negatief kan zijn
         if(salary>0){
@@ -42,9 +42,7 @@ public class Employee {
     }
     public void raiseSalary(){
         this.monthlySalary=(this.monthlySalary + (this.monthlySalary*0.1));
-        // if (percentage > 0) {
-        //     this.monthlySalary += this.monthlySalary*(percentage/100); //eerst wordt gekeken of het percentage geen negatief getal is en dus groter is dan 0, daarna wordt het monthlysalary verhoogd door monthlysalary*(p/100)
-        // }
+        
     }
 
 

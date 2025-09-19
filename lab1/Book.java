@@ -32,5 +32,3 @@ public class Book {
 
 
 }
-
-//Price is in deze klasse public dus eigenlijk is deze setter overbodig  maar hij is handig als je later validatie wilt toevoegen (bijv. prijs niet negatief). dit was als de price ook public was maar dat is niet meer het geval

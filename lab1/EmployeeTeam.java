@@ -34,32 +34,3 @@ public class EmployeeTeam {
     
 }
 
-
-// public class Auto {
-//     // Attributes (eigenschappen)
-//     public String merk;
-//     public String kleur;
-//     public int deuren;
-
-//     // private attribute (encapsulation)
-//     private int kmStand;
-
-//     // Constructor
-//     public Auto(String merk, String kleur, int deuren) {
-//         this.merk = merk;
-//         this.kleur = kleur;
-//         this.deuren = deuren;
-//         this.kmStand = 0; // begin altijd op 0 km
-//     }
-
-//     // Methode om te rijden
-//     public void rijden(int km) {
-//         this.kmStand += km;
-//         System.out.println("De auto rijdt " + km + " km.");
-//     }
-
-//     // Methode om de kilometerstand op te vragen (getter)
-//     public int getKmStand() {
-//         return this.kmStand;
-//     }
-// }
