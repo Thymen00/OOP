@@ -1,4 +1,4 @@
-package lab1;
+package lab1.Employee;
 
 public class Employee {
     private String first_name;

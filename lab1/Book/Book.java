@@ -1,10 +1,10 @@
-package lab1;
+package lab1.Book;
 
     //attributes
-public class Book {
+public class Book {                 
     private String title; //verbergt data, alleen methoden binnen deze classen kunnen erbij
     private String author;  //verbergt data, alleen methoden binnen deze classen kunnen erbij
-    private double price; //overal toegankelijk
+    private double price; 
 
     //constructor
     public Book(String title, String author, double price){             //het aanroepen van de constructer, maakt een nieuw -book- object

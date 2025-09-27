@@ -1,4 +1,4 @@
-package lab1;
+package lab1.Account;
 
 public class AccountListTest {
     public static void main (String [] args){
@@ -11,15 +11,15 @@ public class AccountListTest {
         success = al.appendAccount(new Account("Two", 0.1));
         System.out.println("Append succes " + success);
 
-        //probeer buiten range te halen
-        Account account = al.getAccount(2); //nog geen derde account moet een foutmelding geven
+        
+        Account account = al.getAccount(2); //je vraagt om een derde vakje maar dat is nog leef dus null
         System.out.println(account);
 
-        //geldig ophalen
+        //gsaldo tonen want je vraagt het tweede accout (idx 1)
         account = al.getAccount(1);
         System.out.println("Balance of account[1]: "  + account.getBalance());
 
-        //lijst vol maken
+        //Derde account toevoegen
         success = al.appendAccount(new Account("tmp", 0));
         System.out.println("Append succes: " + success);
 

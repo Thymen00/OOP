@@ -1,4 +1,4 @@
-package lab1;
+package lab1.Account;
 
 public class Account {
     private String name;
@@ -21,7 +21,7 @@ public class Account {
     public double getBalance(){
         return this.balance;
     }
-    public void deposit(double depositAmount){
+    public void deposit(double depositAmount){ //borg
         if (depositAmount>0){
             this.balance += depositAmount;
         }
