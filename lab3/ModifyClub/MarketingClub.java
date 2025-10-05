@@ -1,4 +1,4 @@
-package lab3;
+package lab3.ModifyClub;
 
 public class MarketingClub extends Club {
     private int budget;

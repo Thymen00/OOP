@@ -1,4 +1,4 @@
-package lab3;
+package lab3.ModifyClub;
 
 public class ClubManagingSystemTest {
     public static void main (String [] args){
@@ -12,7 +12,10 @@ public class ClubManagingSystemTest {
     clubs[3] = new MarketingClub("Advertising", 2,100);
     clubs[3].addMember(8);
 
-
+    ClubManagingSystem cms = new ClubManagingSystem(clubs);
+    System.out.println("Total members: " + cms.getAllMembers());
+    System.out.println("Total budget: " + cms.determineAllBudget());
+    System.out.println("Highest club member: " + cms.getHighestMemberClub().getName());
 
     }
     

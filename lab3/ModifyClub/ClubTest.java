@@ -1,4 +1,4 @@
-package lab3;
+package lab3.ModifyClub;
 
 import lab2.Club.MarketingClub;
 import lab2.Club.SportsClub;

@@ -1,4 +1,4 @@
-package lab3;
+package lab3.Payment;
 
 public class Employee {
     protected String name;

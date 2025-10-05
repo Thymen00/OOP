@@ -1,4 +1,4 @@
-package lab3;
+package lab3.ModifyClub;
 
 public class ESportsClub extends SportsClub{
     public ESportsClub(String clubName, int numMember) {

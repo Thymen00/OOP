@@ -1,4 +1,4 @@
-package lab3;
+package lab3.Payment;
 
 public class Fulltimer extends Employee {
     private double salary;

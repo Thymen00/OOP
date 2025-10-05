@@ -1,4 +1,4 @@
-package lab3;
+package lab3.Payment;
 
 public class Manager extends Fulltimer{
     private int workYear;

@@ -1,7 +1,7 @@
-package lab3;
+package lab3.ModifyClub;
 
 public class ClubManagingSystem {
-    protected Club[] clubList;
+    private Club[] clubList;
 
     public ClubManagingSystem (Club[] c){
         this.clubList = c;

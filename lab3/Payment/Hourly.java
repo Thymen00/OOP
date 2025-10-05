@@ -1,4 +1,4 @@
-package lab3;
+package lab3.Payment;
 
 public class Hourly extends Employee {
     private double rate;

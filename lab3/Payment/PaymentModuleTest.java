@@ -1,4 +1,4 @@
-package lab3;
+package lab3.Payment;
 
 public class PaymentModuleTest {
     public static void main (String[] args){
